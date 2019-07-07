@@ -1,0 +1,452 @@
+EESchema Schematic File Version 4
+LIBS:BT-Pcb-328P-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BT Pcb 328P"
+Date "2019-07-07"
+Rev "1.0"
+Comp "d-diot"
+Comment1 ""
+Comment2 ""
+Comment3 "info@d-diot@com"
+Comment4 "Author: Francesco Berghi"
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D2213FD
+P 1050 6500
+F 0 "BT1" H 1168 6596 50  0000 L CNN
+F 1 "Battery_Cell" H 1168 6505 50  0000 L CNN
+F 2 "" V 1050 6560 50  0001 C CNN
+F 3 "~" V 1050 6560 50  0001 C CNN
+	1    1050 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5D221468
+P 1050 6950
+F 0 "BT2" H 1168 7046 50  0000 L CNN
+F 1 "Battery_Cell" H 1168 6955 50  0000 L CNN
+F 2 "" V 1050 7010 50  0001 C CNN
+F 3 "~" V 1050 7010 50  0001 C CNN
+	1    1050 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6750 1050 6600
+$Comp
+L power:GND #PWR0101
+U 1 1 5D2215C7
+P 1050 7150
+F 0 "#PWR0101" H 1050 6900 50  0001 C CNN
+F 1 "GND" H 1055 6977 50  0000 C CNN
+F 2 "" H 1050 7150 50  0001 C CNN
+F 3 "" H 1050 7150 50  0001 C CNN
+	1    1050 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 7150 1050 7050
+$Comp
+L FDN338P:FDN338P Q1
+U 1 1 5D22AF64
+P 1050 5900
+F 0 "Q1" H 1148 5854 50  0000 L CNN
+F 1 "FDN338P" H 1148 5945 50  0000 L CNN
+F 2 "FDN338P:SSOT-3" H 1050 5900 50  0001 L BNN
+F 3 "ON Semiconductor" H 1050 5900 50  0001 L BNN
+F 4 "None" H 1050 5900 50  0001 L BNN "Field4"
+F 5 "P-Channel 20 V 115 mOhm 2.5V Specified PowerTrench Mosfet SSOT-3" H 1050 5900 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 1050 5900 50  0001 L BNN "Field6"
+F 7 "SC-59 ON Semiconductor" H 1050 5900 50  0001 L BNN "Field7"
+F 8 "FDN338P" H 1050 5900 50  0001 L BNN "Field8"
+	1    1050 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 6300 1050 6100
+$Comp
+L power:GND #PWR0102
+U 1 1 5D22B015
+P 2250 5800
+F 0 "#PWR0102" H 2250 5550 50  0001 C CNN
+F 1 "GND" H 2255 5627 50  0000 C CNN
+F 2 "" H 2250 5800 50  0001 C CNN
+F 3 "" H 2250 5800 50  0001 C CNN
+	1    2250 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 5700 1050 5550
+$Comp
+L Regulator_Linear:AMS1117-3.3 U1
+U 1 1 5D22B15B
+P 2900 6300
+F 0 "U1" V 2946 6404 50  0000 L CNN
+F 1 "AMS1117-3.3" V 2855 6404 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2900 6500 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3000 6050 50  0001 C CNN
+	1    2900 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D22B1D7
+P 3350 6300
+F 0 "#PWR0103" H 3350 6050 50  0001 C CNN
+F 1 "GND" H 3355 6127 50  0000 C CNN
+F 2 "" H 3350 6300 50  0001 C CNN
+F 3 "" H 3350 6300 50  0001 C CNN
+	1    3350 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 6300 3350 6300
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5D22B4BB
+P 3100 7350
+F 0 "J1" V 3202 7680 50  0000 L CNN
+F 1 "USB_B_Micro" V 3111 7680 50  0000 L CNN
+F 2 "" H 3250 7300 50  0001 C CNN
+F 3 "~" H 3250 7300 50  0001 C CNN
+	1    3100 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D22B5C2
+P 3600 7350
+F 0 "#PWR0104" H 3600 7100 50  0001 C CNN
+F 1 "GND" H 3605 7177 50  0000 C CNN
+F 2 "" H 3600 7350 50  0001 C CNN
+F 3 "" H 3600 7350 50  0001 C CNN
+	1    3600 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 7350 3600 7350
+NoConn ~ 3500 7450
+$Comp
+L Device:C C2
+U 1 1 5D22B7D9
+P 3050 6850
+F 0 "C2" V 3302 6850 50  0000 C CNN
+F 1 "10uF" V 3211 6850 50  0000 C CNN
+F 2 "" H 3088 6700 50  0001 C CNN
+F 3 "~" H 3050 6850 50  0001 C CNN
+	1    3050 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 7050 2900 6850
+Connection ~ 2900 6850
+Wire Wire Line
+	2900 6850 2900 6600
+Wire Wire Line
+	3200 6850 3200 6300
+Connection ~ 3200 6300
+$Comp
+L Device:CP1 C1
+U 1 1 5D22B965
+P 3050 5800
+F 0 "C1" V 3302 5800 50  0000 C CNN
+F 1 "22uF-Tantalum" V 3200 5600 50  0000 C CNN
+F 2 "CAPPC3528X210N:CAPPC3528X210N" H 3050 5800 50  0001 C CNN
+F 3 "~" H 3050 5800 50  0001 C CNN
+	1    3050 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5800 3200 6300
+Wire Wire Line
+	2900 6000 2900 5800
+NoConn ~ 3100 7050
+NoConn ~ 3200 7050
+NoConn ~ 3300 7050
+Wire Wire Line
+	2900 5800 2900 5400
+Connection ~ 2900 5800
+$Comp
+L Device:R R1
+U 1 1 5D22BE4A
+P 2100 5800
+F 0 "R1" V 1893 5800 50  0000 C CNN
+F 1 "10K" V 1984 5800 50  0000 C CNN
+F 2 "" V 2030 5800 50  0001 C CNN
+F 3 "~" H 2100 5800 50  0001 C CNN
+	1    2100 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 6850 1750 6850
+Wire Wire Line
+	1750 5800 1950 5800
+Wire Wire Line
+	1750 5800 1750 6850
+Wire Wire Line
+	1250 5800 1750 5800
+Connection ~ 1750 5800
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U3
+U 1 1 5D22C52E
+P 8000 4600
+F 0 "U3" H 8000 3014 50  0000 C CNN
+F 1 "ATmega328P-AU" H 8000 2923 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 8000 4600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 8000 4600 50  0001 C CNN
+	1    8000 4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8600 4000
+NoConn ~ 8600 4100
+$Comp
+L power:GND #PWR0105
+U 1 1 5D22CAD2
+P 8150 6100
+F 0 "#PWR0105" H 8150 5850 50  0001 C CNN
+F 1 "GND" H 8155 5927 50  0000 C CNN
+F 2 "" H 8150 6100 50  0001 C CNN
+F 3 "" H 8150 6100 50  0001 C CNN
+	1    8150 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 6100 8150 6100
+Wire Wire Line
+	8000 3100 8000 2950
+Wire Wire Line
+	8000 2950 8050 2950
+Wire Wire Line
+	8100 2950 8100 3100
+$Comp
+L Device:C C5
+U 1 1 5D22CEA7
+P 8200 2800
+F 0 "C5" V 7948 2800 50  0000 C CNN
+F 1 "0.1uF" V 8039 2800 50  0000 C CNN
+F 2 "" H 8238 2650 50  0001 C CNN
+F 3 "~" H 8200 2800 50  0001 C CNN
+	1    8200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D22D438
+P 8200 2400
+F 0 "C4" V 7948 2400 50  0000 C CNN
+F 1 "0.1uF" V 8039 2400 50  0000 C CNN
+F 2 "" H 8238 2250 50  0001 C CNN
+F 3 "~" H 8200 2400 50  0001 C CNN
+	1    8200 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2400 8050 2800
+Connection ~ 8050 2950
+Wire Wire Line
+	8050 2950 8100 2950
+Connection ~ 8050 2800
+Wire Wire Line
+	8050 2800 8050 2950
+Text GLabel 8050 2000 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	8050 2400 8050 2000
+Connection ~ 8050 2400
+Wire Wire Line
+	8350 2800 8350 2600
+$Comp
+L power:GND #PWR0106
+U 1 1 5D22DB88
+P 8350 2600
+F 0 "#PWR0106" H 8350 2350 50  0001 C CNN
+F 1 "GND" H 8355 2427 50  0000 C CNN
+F 2 "" H 8350 2600 50  0001 C CNN
+F 3 "" H 8350 2600 50  0001 C CNN
+	1    8350 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8350 2600
+Wire Wire Line
+	8350 2600 8350 2400
+$Comp
+L Device:C C3
+U 1 1 5D22DEB9
+P 7100 3400
+F 0 "C3" V 6848 3400 50  0000 C CNN
+F 1 "0.1uF" V 6939 3400 50  0000 C CNN
+F 2 "" H 7138 3250 50  0001 C CNN
+F 3 "~" H 7100 3400 50  0001 C CNN
+	1    7100 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3400 7400 3400
+$Comp
+L power:GND #PWR0107
+U 1 1 5D22E218
+P 6950 3400
+F 0 "#PWR0107" H 6950 3150 50  0001 C CNN
+F 1 "GND" H 6955 3227 50  0000 C CNN
+F 2 "" H 6950 3400 50  0001 C CNN
+F 3 "" H 6950 3400 50  0001 C CNN
+	1    6950 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D234AEB
+P 9950 4650
+F 0 "R2" V 9743 4650 50  0000 C CNN
+F 1 "10K" V 9834 4650 50  0000 C CNN
+F 2 "" V 9880 4650 50  0001 C CNN
+F 3 "~" H 9950 4650 50  0001 C CNN
+	1    9950 4650
+	-1   0    0    1   
+$EndComp
+Text GLabel 10700 4500 2    50   Input ~ 0
+VCC
+$Comp
+L Device:C C6
+U 1 1 5D2358B3
+P 9650 5050
+F 0 "C6" V 9398 5050 50  0000 C CNN
+F 1 "0.1uF" V 9489 5050 50  0000 C CNN
+F 2 "" H 9688 4900 50  0001 C CNN
+F 3 "~" H 9650 5050 50  0001 C CNN
+	1    9650 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 5300 3    50   Input ~ 0
+DTR
+Wire Wire Line
+	9650 5200 9650 5300
+$Comp
+L 1437566-3:1437566-3 SW1
+U 1 1 5D235F3E
+P 10500 4900
+F 0 "SW1" H 10500 4686 50  0000 C CNN
+F 1 "1437566-3" H 10500 4777 50  0000 C CNN
+F 2 "1437566-3:SW_1437566-3" H 10500 4900 50  0001 L BNN
+F 3 "Single Pole - Single Throw" H 10500 4900 50  0001 L BNN
+F 4 "None" H 10500 4900 50  0001 L BNN "Field4"
+F 5 "1437566-3" H 10500 4900 50  0001 L BNN "Field5"
+F 6 "1437566-3" H 10500 4900 50  0001 L BNN "Field6"
+F 7 "https://www.te.com/usa-en/product-1437566-3.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 10500 4900 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 10500 4900 50  0001 L BNN "Field8"
+F 9 "50 mA" H 10500 4900 50  0001 L BNN "Field9"
+F 10 "FSMSM=3.5X6 SMT TACT" H 10500 4900 50  0001 L BNN "Field10"
+F 11 "TE Connectivity" H 10500 4900 50  0001 L BNN "Field11"
+F 12 "None" H 10500 4900 50  0001 L BNN "Field12"
+	1    10500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D2361FB
+P 10700 4900
+F 0 "#PWR0108" H 10700 4650 50  0001 C CNN
+F 1 "GND" H 10705 4727 50  0000 C CNN
+F 2 "" H 10700 4900 50  0001 C CNN
+F 3 "" H 10700 4900 50  0001 C CNN
+	1    10700 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 4900 9650 4900
+Connection ~ 9650 4900
+Wire Wire Line
+	9650 4900 9950 4900
+Wire Wire Line
+	9950 4500 10700 4500
+Wire Wire Line
+	9950 4800 9950 4900
+Connection ~ 9950 4900
+Text GLabel 9650 4750 1    50   Input ~ 0
+RESET
+Wire Wire Line
+	9950 4900 10300 4900
+Wire Wire Line
+	9650 4900 9650 4750
+$Comp
+L as312:AS312 U2
+U 1 1 5D223FB2
+P 4150 2950
+F 0 "U2" H 4150 3387 60  0000 C CNN
+F 1 "AS312" H 4150 3281 60  0000 C CNN
+F 2 "as312:as312" H 4150 2900 60  0001 C CNN
+F 3 "" H 4150 2900 60  0001 C CNN
+	1    4150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5D224132
+P 4150 3400
+F 0 "#PWR0109" H 4150 3150 50  0001 C CNN
+F 1 "GND" H 4155 3227 50  0000 C CNN
+F 2 "" H 4150 3400 50  0001 C CNN
+F 3 "" H 4150 3400 50  0001 C CNN
+	1    4150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mysensors_radios:RFM69HW U4
+U 1 1 5D224CEC
+P 10200 1150
+F 0 "U4" H 10200 1761 40  0000 C CNN
+F 1 "RFM69HW" H 10200 1685 40  0000 C CNN
+F 2 "mysensors_radios:RFM69HW_SMD_ThroughHole_Handsoldering" H 10200 1150 30  0001 C CIN
+F 3 "http://modtronicsaustralia.com/wp-content/uploads/2014/11/RFM69HW-V1.3.pdf" H 9250 1600 60  0000 C CNN
+	1    10200 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10350 800  2    50   Input ~ 0
+VCC
+Wire Wire Line
+	10200 800  10350 800 
+$Comp
+L power:GND #PWR01
+U 1 1 5D2258CE
+P 10200 2100
+F 0 "#PWR01" H 10200 1850 50  0001 C CNN
+F 1 "GND" H 10205 1927 50  0000 C CNN
+F 2 "" H 10200 2100 50  0001 C CNN
+F 3 "" H 10200 2100 50  0001 C CNN
+	1    10200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2000 10100 2100
+Wire Wire Line
+	10100 2100 10200 2100
+Wire Wire Line
+	10200 2100 10300 2100
+Wire Wire Line
+	10300 2100 10300 2000
+Connection ~ 10200 2100
+$Comp
+L mysensors_connectors:MYSX_2.6 P1
+U 1 1 5D226B2F
+P 1100 900
+F 0 "P1" H 1625 1231 50  0000 C CNN
+F 1 "MYSX_2.6" H 1625 1140 50  0000 C CNN
+F 2 "" H 1100 -300 60  0000 C CNN
+F 3 "http://github.com/mysensors-kicad/documentation/raw/master/TheMYSXconnector.pdf" H 3100 1050 60  0000 C CNN
+	1    1100 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 3500 0    50   Input ~ 0
+Vboost
+Text GLabel 2400 3250 1    50   Input ~ 0
+VCC
+Text GLabel 1050 5550 1    50   Input ~ 0
+Vbat+
+Text GLabel 2900 5400 1    50   Input ~ 0
++3.3V
+$EndSCHEMATC

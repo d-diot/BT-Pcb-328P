@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name FDN338P)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/snapeda/FDN338P/FDN338P.lib)(options "")(descr ""))
+  (lib (name 1437566-3)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/snapeda/Push-Button-SMD-1437566-3/1437566-3.lib)(options "")(descr ""))
+  (lib (name as312)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/misc/Pir-AS312/as312.lib)(options "")(descr ""))
+  (lib (name mysensors_radios)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_symbols/mysensors_radios.lib)(options "")(descr ""))
+  (lib (name mysensors_connectors)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_symbols/mysensors_connectors.lib)(options "")(descr ""))
+)
