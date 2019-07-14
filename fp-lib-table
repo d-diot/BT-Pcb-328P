@@ -5,4 +5,8 @@
   (lib (name as312)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/Pir-AS312/as312.pretty)(options "")(descr ""))
   (lib (name mysensors_radios)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_radios.pretty)(options "")(descr ""))
   (lib (name mysensors_connectors)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_connectors.pretty)(options "")(descr ""))
+  (lib (name FDN337N)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/snapeda/FDN337N/FDN337N.mod)(options "")(descr ""))
+  (lib (name batteries)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/batteries.pretty)(options "")(descr ""))
+  (lib (name capacitors)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/capacitors.pretty)(options "")(descr ""))
+  (lib (name diodes)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/diodes.pretty)(options "")(descr ""))
 )

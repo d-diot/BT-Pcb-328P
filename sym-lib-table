@@ -4,4 +4,7 @@
   (lib (name as312)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/misc/Pir-AS312/as312.lib)(options "")(descr ""))
   (lib (name mysensors_radios)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_symbols/mysensors_radios.lib)(options "")(descr ""))
   (lib (name mysensors_connectors)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_symbols/mysensors_connectors.lib)(options "")(descr ""))
+  (lib (name FDN337N)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/snapeda/FDN337N/FDN337N.lib)(options "")(descr ""))
+  (lib (name boost-converters)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/misc/boost-converters.lib)(options "")(descr ""))
+  (lib (name mysensors_security)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_symbols/mysensors_security.lib)(options "")(descr ""))
 )
