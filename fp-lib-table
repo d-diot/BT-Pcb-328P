@@ -9,4 +9,5 @@
   (lib (name batteries)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/batteries.pretty)(options "")(descr ""))
   (lib (name capacitors)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/capacitors.pretty)(options "")(descr ""))
   (lib (name diodes)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/diodes.pretty)(options "")(descr ""))
+  (lib (name holes)(type KiCad)(uri /home/franz-unix/nas/kicad/libraries/misc/holes.pretty)(options "")(descr ""))
 )
