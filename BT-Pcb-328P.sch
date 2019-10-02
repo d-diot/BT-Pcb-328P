@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BT Pcb 328P"
-Date "2019-09-06"
-Rev "2.0"
+Date "2019-10-02"
+Rev "3.0"
 Comp "d-diot"
 Comment1 "MY_RFM69_RST_PIN 9"
 Comment2 "MY_DEFAULT_ERR_LED_PIN 14, MY_DEFAULT_TX_LED_PIN 15, MY_DEFAULT_RX_LED_PIN 16"
