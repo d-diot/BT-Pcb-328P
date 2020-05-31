@@ -14,7 +14,7 @@ See the latest [release](https://github.com/d-diot/BT-Pcb-328P/releases) to down
 ## Applications of this PCB:
 
 [MySensors](https://www.mysensors.org/) battery powered and [3d printable](https://www.thingiverse.com/thing:3968135) wireless [Multisensor](https://wiki.d-diot.com/sensors_and_actuators/mysensors/d-diot_battery_powered_multisensor) for motion, light, temperature and humidity detection.
-MySensors is compatible with a lot of open source home automation software like Home Assistant, OpenHAB, Domoticz, etc... See [here](https://www.mysensors.org/controller) for a complete list.
+MySensors is compatible with a lot of open source home automation software like Home Assistant (which is the one included in the [d-diot hub](https://www.d-diot.com/2020/05/24/d-diot-hub-v-2-0/) and [image](https://www.d-diot.com/?s=d-diot+image)), OpenHAB, Domoticz, etc... See [here](https://www.mysensors.org/controller) for a complete list.
 
 ![Multisensor](https://wiki.d-diot.com/_media/sensors_and_actuators/mysensors/btfinal/case2.jpg)
 
