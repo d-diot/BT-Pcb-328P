@@ -8,6 +8,8 @@ See the [blog post](https://www.d-diot.com/2019/11/09/bt-pcb-328p/) or the dedic
 
 ![pcbrear](https://wiki.d-diot.com/_media/hardware/pcb/mysensors/bt-pcb-328p/board-layout/bt-pcb-328p-v.3.0-rear.jpg)
 
+See the latest release to download the gerber files to manufacture this board.
+
 
 ## Applications of this PCB:
 
