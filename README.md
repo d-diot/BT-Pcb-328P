@@ -13,7 +13,7 @@ See the [blog post](https://www.d-diot.com/2019/11/09/bt-pcb-328p/) or the dedic
 
 MySensors battery powered [Multisensor](https://wiki.d-diot.com/sensors_and_actuators/mysensors/d-diot_battery_powered_multisensor)
 
-![Multisensor](https://wiki.d-diot.com/_media/sensors_and_actuators/mysensors/btfinal/case2.jpg?w=449&h=599&tok=733fa1)
+![Multisensor](https://wiki.d-diot.com/_media/sensors_and_actuators/mysensors/btfinal/case2.jpg)
 
 ## Firmware
 
