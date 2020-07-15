@@ -7,4 +7,5 @@
   (lib (name FDN337N)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/snapeda/FDN337N/FDN337N.lib)(options "")(descr ""))
   (lib (name boost-converters)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/misc/boost-converters.lib)(options "")(descr ""))
   (lib (name mysensors_security)(type Legacy)(uri /home/franz-unix/nas/kicad/libraries/mysensors/mysensors_symbols/mysensors_security.lib)(options "")(descr ""))
+  (lib (name BT-Pcb-328P-rescue)(type Legacy)(uri ${KIPRJMOD}/BT-Pcb-328P-rescue.lib)(options "")(descr ""))
 )
